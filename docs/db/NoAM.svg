@@ -1,0 +1,523 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1440px" height="1000px" viewBox="0 0 1440 1000" content="&lt;mxfile host=&quot;65bd71144e&quot;&gt;
+    &lt;diagram id=&quot;noam-escola-idiomas&quot; name=&quot;Page-1&quot;&gt;
+        &lt;mxGraphModel dx=&quot;1732&quot; dy=&quot;1000&quot; grid=&quot;1&quot; gridSize=&quot;10&quot; guides=&quot;1&quot; tooltips=&quot;1&quot; connect=&quot;1&quot; arrows=&quot;1&quot; fold=&quot;1&quot; page=&quot;1&quot; pageScale=&quot;1&quot; pageWidth=&quot;1600&quot; pageHeight=&quot;1100&quot; math=&quot;0&quot; shadow=&quot;0&quot;&gt;
+            &lt;root&gt;
+                &lt;mxCell id=&quot;0&quot;/&gt;
+                &lt;mxCell id=&quot;1&quot; parent=&quot;0&quot;/&gt;
+                &lt;mxCell id=&quot;agg1&quot; value=&quot;&quot; style=&quot;rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;30&quot; y=&quot;25&quot; width=&quot;620&quot; height=&quot;335&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;agg2&quot; value=&quot;&quot; style=&quot;rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;730&quot; y=&quot;55&quot; width=&quot;420&quot; height=&quot;375&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;agg3&quot; value=&quot;&quot; style=&quot;rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;230&quot; y=&quot;505&quot; width=&quot;200&quot; height=&quot;380&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;agg4&quot; value=&quot;&quot; style=&quot;rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;730&quot; y=&quot;505&quot; width=&quot;200&quot; height=&quot;460&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;agg5&quot; value=&quot;&quot; style=&quot;rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;990&quot; y=&quot;475&quot; width=&quot;420&quot; height=&quot;305&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;aluno&quot; value=&quot;Aluno&quot; style=&quot;swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;60&quot; y=&quot;140&quot; width=&quot;140&quot; height=&quot;182&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;aluno_f0&quot; value=&quot;_id&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;aluno&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;26&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;aluno_f1&quot; value=&quot;nome&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;aluno&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;52&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;aluno_f2&quot; value=&quot;cpf&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;aluno&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;78&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;aluno_f3&quot; value=&quot;dataNascimento&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;aluno&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;104&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;aluno_f4&quot; value=&quot;telefone&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;aluno&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;130&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;aluno_f5&quot; value=&quot;email&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;aluno&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;156&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;endAluno&quot; value=&quot;Endereco&quot; style=&quot;swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;260&quot; y=&quot;140&quot; width=&quot;140&quot; height=&quot;156&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;endAluno_f0&quot; value=&quot;logradouro&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;endAluno&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;26&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;endAluno_f1&quot; value=&quot;numero&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;endAluno&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;52&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;endAluno_f2&quot; value=&quot;municipio&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;endAluno&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;78&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;endAluno_f3&quot; value=&quot;uf&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;endAluno&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;104&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;endAluno_f4&quot; value=&quot;cep&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;endAluno&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;130&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;resp&quot; value=&quot;Responsavel&quot; style=&quot;swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;460&quot; y=&quot;140&quot; width=&quot;140&quot; height=&quot;130&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;resp_f0&quot; value=&quot;nome&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;resp&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;26&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;resp_f1&quot; value=&quot;cpf&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;resp&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;52&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;resp_f2&quot; value=&quot;telefone&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;resp&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;78&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;resp_f3&quot; value=&quot;parentesco&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;resp&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;104&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;curso&quot; value=&quot;Curso&quot; style=&quot;swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;760&quot; y=&quot;140&quot; width=&quot;140&quot; height=&quot;260&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;curso_f0&quot; value=&quot;_id&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;curso&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;26&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;curso_f1&quot; value=&quot;nome&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;curso&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;52&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;curso_f2&quot; value=&quot;idioma&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;curso&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;78&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;curso_f3&quot; value=&quot;publicoAlvo&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;curso&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;104&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;curso_f4&quot; value=&quot;idadeMinima&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;curso&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;130&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;curso_f5&quot; value=&quot;idadeMaxima&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;curso&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;156&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;curso_f6&quot; value=&quot;nivel&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;curso&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;182&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;curso_f7&quot; value=&quot;cargaHoraria&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;curso&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;208&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;curso_f8&quot; value=&quot;valorMensal&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;curso&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;234&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;modulo&quot; value=&quot;Modulo&quot; style=&quot;swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;980&quot; y=&quot;140&quot; width=&quot;140&quot; height=&quot;104&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;modulo_f0&quot; value=&quot;titulo&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;modulo&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;26&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;modulo_f1&quot; value=&quot;conteudo&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;modulo&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;52&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;modulo_f2&quot; value=&quot;cargaHoraria&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;modulo&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;78&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;matricula&quot; value=&quot;Matricula&quot; style=&quot;swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;260&quot; y=&quot;540&quot; width=&quot;140&quot; height=&quot;156&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;matricula_f0&quot; value=&quot;_id&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;matricula&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;26&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;matricula_f1&quot; value=&quot;alunoId&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;matricula&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;52&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;matricula_f2&quot; value=&quot;turmaId&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;matricula&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;78&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;matricula_f3&quot; value=&quot;data&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;matricula&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;104&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;matricula_f4&quot; value=&quot;situacao&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;matricula&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;130&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;nota&quot; value=&quot;Nota&quot; style=&quot;swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;260&quot; y=&quot;776&quot; width=&quot;140&quot; height=&quot;78&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;nota_f0&quot; value=&quot;avaliacao&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;nota&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;26&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;nota_f1&quot; value=&quot;valor&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;nota&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;52&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;turma&quot; value=&quot;Turma&quot; style=&quot;swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;760&quot; y=&quot;540&quot; width=&quot;140&quot; height=&quot;208&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;turma_f0&quot; value=&quot;_id&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;turma&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;26&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;turma_f1&quot; value=&quot;cursoId&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;turma&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;52&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;turma_f2&quot; value=&quot;instrutorId&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;turma&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;78&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;turma_f3&quot; value=&quot;inicio&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;turma&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;104&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;turma_f4&quot; value=&quot;fim&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;turma&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;130&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;turma_f5&quot; value=&quot;vagas&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;turma&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;156&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;turma_f6&quot; value=&quot;modalidade&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;turma&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;182&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;horario&quot; value=&quot;Horario&quot; style=&quot;swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;760&quot; y=&quot;828&quot; width=&quot;140&quot; height=&quot;104&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;horario_f0&quot; value=&quot;diaSemana&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;horario&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;26&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;horario_f1&quot; value=&quot;inicio&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;horario&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;52&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;horario_f2&quot; value=&quot;fim&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;horario&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;78&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;instrutor&quot; value=&quot;Instrutor&quot; style=&quot;swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;1040&quot; y=&quot;540&quot; width=&quot;140&quot; height=&quot;208&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;instrutor_f0&quot; value=&quot;_id&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;instrutor&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;26&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;instrutor_f1&quot; value=&quot;nome&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;instrutor&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;52&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;instrutor_f2&quot; value=&quot;cpf&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;instrutor&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;78&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;instrutor_f3&quot; value=&quot;telefone&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;instrutor&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;104&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;instrutor_f4&quot; value=&quot;email&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;instrutor&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;130&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;instrutor_f5&quot; value=&quot;idiomas[]&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;instrutor&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;156&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;instrutor_f6&quot; value=&quot;publicosAtendidos[]&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;instrutor&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;182&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;endInstr&quot; value=&quot;Endereco&quot; style=&quot;swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;1240&quot; y=&quot;540&quot; width=&quot;140&quot; height=&quot;156&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;endInstr_f0&quot; value=&quot;logradouro&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;endInstr&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;26&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;endInstr_f1&quot; value=&quot;numero&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;endInstr&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;52&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;endInstr_f2&quot; value=&quot;municipio&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;endInstr&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;78&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;endInstr_f3&quot; value=&quot;uf&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;endInstr&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;104&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;endInstr_f4&quot; value=&quot;cep&quot; style=&quot;text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;&quot; parent=&quot;endInstr&quot; vertex=&quot;1&quot;&gt;
+                    &lt;mxGeometry y=&quot;130&quot; width=&quot;140&quot; height=&quot;26&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge1&quot; value=&quot;&quot; style=&quot;endArrow=diamondThin;endFill=1;endSize=24;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.75;exitY=0.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;&quot; parent=&quot;1&quot; source=&quot;aluno&quot; target=&quot;endAluno&quot; edge=&quot;1&quot;&gt;
+                    &lt;mxGeometry width=&quot;160&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;Array as=&quot;points&quot;&gt;&lt;mxPoint x=&quot;165&quot; y=&quot;95&quot;/&gt;&lt;mxPoint x=&quot;330&quot; y=&quot;95&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge1_l0&quot; value=&quot;1&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;177&quot; y=&quot;112&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge1_l1&quot; value=&quot;1..*&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;354&quot; y=&quot;112&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge2&quot; value=&quot;&quot; style=&quot;endArrow=diamondThin;endFill=1;endSize=24;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=0.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;&quot; parent=&quot;1&quot; source=&quot;aluno&quot; target=&quot;resp&quot; edge=&quot;1&quot;&gt;
+                    &lt;mxGeometry width=&quot;160&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;Array as=&quot;points&quot;&gt;&lt;mxPoint x=&quot;95&quot; y=&quot;60&quot;/&gt;&lt;mxPoint x=&quot;530&quot; y=&quot;60&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge2_l0&quot; value=&quot;1&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;107&quot; y=&quot;112&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge2_l1&quot; value=&quot;0..*&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;554&quot; y=&quot;112&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge3&quot; value=&quot;&quot; style=&quot;endArrow=diamondThin;endFill=1;endSize=24;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.2857;exitY=0.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;&quot; parent=&quot;1&quot; source=&quot;curso&quot; target=&quot;modulo&quot; edge=&quot;1&quot;&gt;
+                    &lt;mxGeometry width=&quot;160&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;Array as=&quot;points&quot;&gt;&lt;mxPoint x=&quot;800&quot; y=&quot;95&quot;/&gt;&lt;mxPoint x=&quot;1050&quot; y=&quot;95&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge3_l0&quot; value=&quot;1&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;812&quot; y=&quot;112&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge3_l1&quot; value=&quot;1..*&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;1074&quot; y=&quot;112&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge4&quot; value=&quot;&quot; style=&quot;endArrow=diamondThin;endFill=1;endSize=24;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;&quot; parent=&quot;1&quot; source=&quot;instrutor&quot; target=&quot;endInstr&quot; edge=&quot;1&quot;&gt;
+                    &lt;mxGeometry width=&quot;160&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;Array as=&quot;points&quot;&gt;&lt;mxPoint x=&quot;1110&quot; y=&quot;500&quot;/&gt;&lt;mxPoint x=&quot;1310&quot; y=&quot;500&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge4_l0&quot; value=&quot;1&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;1122&quot; y=&quot;517&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge4_l1&quot; value=&quot;1..*&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;1334&quot; y=&quot;517&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge5&quot; value=&quot;&quot; style=&quot;endArrow=diamondThin;endFill=1;endSize=24;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;&quot; parent=&quot;1&quot; source=&quot;aluno&quot; target=&quot;matricula&quot; edge=&quot;1&quot;&gt;
+                    &lt;mxGeometry width=&quot;160&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;Array as=&quot;points&quot;&gt;&lt;mxPoint x=&quot;130&quot; y=&quot;618&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge5_l0&quot; value=&quot;1&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;142&quot; y=&quot;366&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge5_l1&quot; value=&quot;0..*&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;205&quot; y=&quot;606&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge6&quot; value=&quot;&quot; style=&quot;endArrow=diamondThin;endFill=1;endSize=24;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.0;exitY=0.375;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;&quot; parent=&quot;1&quot; source=&quot;turma&quot; target=&quot;matricula&quot; edge=&quot;1&quot;&gt;
+                    &lt;mxGeometry width=&quot;160&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge6_l0&quot; value=&quot;1&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;745&quot; y=&quot;606&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge6_l1&quot; value=&quot;0..*&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;448&quot; y=&quot;606&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge7&quot; value=&quot;&quot; style=&quot;endArrow=diamondThin;endFill=1;endSize=24;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;&quot; parent=&quot;1&quot; source=&quot;curso&quot; target=&quot;turma&quot; edge=&quot;1&quot;&gt;
+                    &lt;mxGeometry width=&quot;160&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge7_l0&quot; value=&quot;1&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;842&quot; y=&quot;436&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge7_l1&quot; value=&quot;0..*&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;854&quot; y=&quot;518&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge8&quot; value=&quot;&quot; style=&quot;endArrow=diamondThin;endFill=1;endSize=24;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;&quot; parent=&quot;1&quot; source=&quot;matricula&quot; target=&quot;nota&quot; edge=&quot;1&quot;&gt;
+                    &lt;mxGeometry width=&quot;160&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge8_l0&quot; value=&quot;1&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;342&quot; y=&quot;714&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge8_l1&quot; value=&quot;0..*&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;354&quot; y=&quot;758&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge9&quot; value=&quot;&quot; style=&quot;endArrow=diamondThin;endFill=1;endSize=24;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;&quot; parent=&quot;1&quot; source=&quot;turma&quot; target=&quot;horario&quot; edge=&quot;1&quot;&gt;
+                    &lt;mxGeometry width=&quot;160&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge9_l0&quot; value=&quot;1&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;842&quot; y=&quot;766&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge9_l1&quot; value=&quot;1..*&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;854&quot; y=&quot;810&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge10&quot; value=&quot;&quot; style=&quot;endArrow=open;endFill=0;endSize=10;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;&quot; parent=&quot;1&quot; source=&quot;instrutor&quot; target=&quot;turma&quot; edge=&quot;1&quot;&gt;
+                    &lt;mxGeometry width=&quot;160&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge10_l0&quot; value=&quot;0..1&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;1004&quot; y=&quot;626&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;edge10_l1&quot; value=&quot;0..*&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;fontSize=10;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;910&quot; y=&quot;626&quot; width=&quot;30&quot; height=&quot;14&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info&quot; value=&quot;&quot; style=&quot;shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;spacing=1;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;
+                    &lt;mxGeometry x=&quot;1010&quot; y=&quot;820&quot; width=&quot;400&quot; height=&quot;100&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info_r0&quot; value=&quot;&quot; style=&quot;shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;&quot; vertex=&quot;1&quot; parent=&quot;info&quot;&gt;
+                    &lt;mxGeometry y=&quot;0&quot; width=&quot;400&quot; height=&quot;20&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info_r0a&quot; value=&quot;Projeto&quot; style=&quot;shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;spacing=0;fontStyle=1&quot; vertex=&quot;1&quot; parent=&quot;info_r0&quot;&gt;
+                    &lt;mxGeometry width=&quot;105&quot; height=&quot;20&quot; as=&quot;geometry&quot;&gt;&lt;mxRectangle width=&quot;105&quot; height=&quot;20&quot; as=&quot;alternateBounds&quot;/&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info_r0b&quot; value=&quot;Idioma para Todos&quot; style=&quot;shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;info_r0&quot;&gt;
+                    &lt;mxGeometry x=&quot;105&quot; width=&quot;295&quot; height=&quot;20&quot; as=&quot;geometry&quot;&gt;&lt;mxRectangle width=&quot;295&quot; height=&quot;20&quot; as=&quot;alternateBounds&quot;/&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info_r1&quot; value=&quot;&quot; style=&quot;shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;&quot; vertex=&quot;1&quot; parent=&quot;info&quot;&gt;
+                    &lt;mxGeometry y=&quot;20&quot; width=&quot;400&quot; height=&quot;20&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info_r1a&quot; value=&quot;Artefato&quot; style=&quot;shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;spacing=0;fontStyle=1&quot; vertex=&quot;1&quot; parent=&quot;info_r1&quot;&gt;
+                    &lt;mxGeometry width=&quot;105&quot; height=&quot;20&quot; as=&quot;geometry&quot;&gt;&lt;mxRectangle width=&quot;105&quot; height=&quot;20&quot; as=&quot;alternateBounds&quot;/&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info_r1b&quot; value=&quot;Diagrama NoAM&quot; style=&quot;shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;info_r1&quot;&gt;
+                    &lt;mxGeometry x=&quot;105&quot; width=&quot;295&quot; height=&quot;20&quot; as=&quot;geometry&quot;&gt;&lt;mxRectangle width=&quot;295&quot; height=&quot;20&quot; as=&quot;alternateBounds&quot;/&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info_r2&quot; value=&quot;&quot; style=&quot;shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;&quot; vertex=&quot;1&quot; parent=&quot;info&quot;&gt;
+                    &lt;mxGeometry y=&quot;40&quot; width=&quot;400&quot; height=&quot;20&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info_r2a&quot; value=&quot;Contexto&quot; style=&quot;shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;spacing=0;fontStyle=1&quot; vertex=&quot;1&quot; parent=&quot;info_r2&quot;&gt;
+                    &lt;mxGeometry width=&quot;105&quot; height=&quot;20&quot; as=&quot;geometry&quot;&gt;&lt;mxRectangle width=&quot;105&quot; height=&quot;20&quot; as=&quot;alternateBounds&quot;/&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info_r2b&quot; value=&quot;Projeto Interdisciplinar III&quot; style=&quot;shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;info_r2&quot;&gt;
+                    &lt;mxGeometry x=&quot;105&quot; width=&quot;295&quot; height=&quot;20&quot; as=&quot;geometry&quot;&gt;&lt;mxRectangle width=&quot;295&quot; height=&quot;20&quot; as=&quot;alternateBounds&quot;/&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info_r3&quot; value=&quot;&quot; style=&quot;shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;&quot; vertex=&quot;1&quot; parent=&quot;info&quot;&gt;
+                    &lt;mxGeometry y=&quot;60&quot; width=&quot;400&quot; height=&quot;20&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info_r3a&quot; value=&quot;Turma&quot; style=&quot;shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;spacing=0;fontStyle=1&quot; vertex=&quot;1&quot; parent=&quot;info_r3&quot;&gt;
+                    &lt;mxGeometry width=&quot;105&quot; height=&quot;20&quot; as=&quot;geometry&quot;&gt;&lt;mxRectangle width=&quot;105&quot; height=&quot;20&quot; as=&quot;alternateBounds&quot;/&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info_r3b&quot; value=&quot;3 sem. DSM 2026/2&quot; style=&quot;shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;info_r3&quot;&gt;
+                    &lt;mxGeometry x=&quot;105&quot; width=&quot;295&quot; height=&quot;20&quot; as=&quot;geometry&quot;&gt;&lt;mxRectangle width=&quot;295&quot; height=&quot;20&quot; as=&quot;alternateBounds&quot;/&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info_r4&quot; value=&quot;&quot; style=&quot;shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;&quot; vertex=&quot;1&quot; parent=&quot;info&quot;&gt;
+                    &lt;mxGeometry y=&quot;80&quot; width=&quot;400&quot; height=&quot;20&quot; as=&quot;geometry&quot;/&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info_r4a&quot; value=&quot;Autores&quot; style=&quot;shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;spacing=0;fontStyle=1&quot; vertex=&quot;1&quot; parent=&quot;info_r4&quot;&gt;
+                    &lt;mxGeometry width=&quot;105&quot; height=&quot;20&quot; as=&quot;geometry&quot;&gt;&lt;mxRectangle width=&quot;105&quot; height=&quot;20&quot; as=&quot;alternateBounds&quot;/&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+                &lt;mxCell id=&quot;info_r4b&quot; value=&quot;Carlos Adriano T. S. Costa&quot; style=&quot;shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;spacing=0;&quot; vertex=&quot;1&quot; parent=&quot;info_r4&quot;&gt;
+                    &lt;mxGeometry x=&quot;105&quot; width=&quot;295&quot; height=&quot;20&quot; as=&quot;geometry&quot;&gt;&lt;mxRectangle width=&quot;295&quot; height=&quot;20&quot; as=&quot;alternateBounds&quot;/&gt;&lt;/mxGeometry&gt;
+                &lt;/mxCell&gt;
+            &lt;/root&gt;
+        &lt;/mxGraphModel&gt;
+    &lt;/diagram&gt;
+&lt;/mxfile&gt;
+">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g>
+<rect x="30" y="25" width="620" height="335" rx="40.2" ry="40.2" fill="none" stroke="#000" stroke-width="2"/>
+<rect x="730" y="55" width="420" height="375" rx="45.0" ry="45.0" fill="none" stroke="#000" stroke-width="2"/>
+<rect x="230" y="505" width="200" height="380" rx="24.0" ry="24.0" fill="none" stroke="#000" stroke-width="2"/>
+<rect x="730" y="505" width="200" height="460" rx="24.0" ry="24.0" fill="none" stroke="#000" stroke-width="2"/>
+<rect x="990" y="475" width="420" height="305" rx="36.6" ry="36.6" fill="none" stroke="#000" stroke-width="2"/>
+<path d="M 165.0 140.0 L 165.0 95.0 L 330.0 95.0 L 330.0 114.0" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<path d="M 330.0 140.0 L 320.0 127.0 L 330.0 114.0 L 340.0 127.0 Z" fill="#000" stroke="#000" stroke-miterlimit="10"/>
+<text x="177" y="123" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">1</text>
+<text x="354" y="123" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">1..*</text>
+<path d="M 95.0 140.0 L 95.0 60.0 L 530.0 60.0 L 530.0 114.0" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<path d="M 530.0 140.0 L 520.0 127.0 L 530.0 114.0 L 540.0 127.0 Z" fill="#000" stroke="#000" stroke-miterlimit="10"/>
+<text x="107" y="123" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">1</text>
+<text x="554" y="123" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">0..*</text>
+<path d="M 800.0 140.0 L 800.0 95.0 L 1050.0 95.0 L 1050.0 114.0" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<path d="M 1050.0 140.0 L 1040.0 127.0 L 1050.0 114.0 L 1060.0 127.0 Z" fill="#000" stroke="#000" stroke-miterlimit="10"/>
+<text x="812" y="123" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">1</text>
+<text x="1074" y="123" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">1..*</text>
+<path d="M 1110.0 540.0 L 1110.0 500.0 L 1310.0 500.0 L 1310.0 514.0" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<path d="M 1310.0 540.0 L 1300.0 527.0 L 1310.0 514.0 L 1320.0 527.0 Z" fill="#000" stroke="#000" stroke-miterlimit="10"/>
+<text x="1122" y="528" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">1</text>
+<text x="1334" y="528" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">1..*</text>
+<path d="M 130.0 322.0 L 130.0 618.0 L 234.0 618.0" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<path d="M 260.0 618.0 L 247.0 628.0 L 234.0 618.0 L 247.0 608.0 Z" fill="#000" stroke="#000" stroke-miterlimit="10"/>
+<text x="142" y="377" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">1</text>
+<text x="205" y="617" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">0..*</text>
+<path d="M 760.0 618.0 L 426.0 618.0" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<path d="M 400.0 618.0 L 413.0 608.0 L 426.0 618.0 L 413.0 628.0 Z" fill="#000" stroke="#000" stroke-miterlimit="10"/>
+<text x="745" y="617" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">1</text>
+<text x="448" y="617" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">0..*</text>
+<path d="M 830.0 400.0 L 830.0 514.0" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<path d="M 830.0 540.0 L 820.0 527.0 L 830.0 514.0 L 840.0 527.0 Z" fill="#000" stroke="#000" stroke-miterlimit="10"/>
+<text x="842" y="447" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">1</text>
+<text x="854" y="529" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">0..*</text>
+<path d="M 330.0 696.0 L 330.0 750.0" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<path d="M 330.0 776.0 L 320.0 763.0 L 330.0 750.0 L 340.0 763.0 Z" fill="#000" stroke="#000" stroke-miterlimit="10"/>
+<text x="342" y="725" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">1</text>
+<text x="354" y="769" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">0..*</text>
+<path d="M 830.0 748.0 L 830.0 802.0" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<path d="M 830.0 828.0 L 820.0 815.0 L 830.0 802.0 L 840.0 815.0 Z" fill="#000" stroke="#000" stroke-miterlimit="10"/>
+<text x="842" y="777" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">1</text>
+<text x="854" y="821" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">1..*</text>
+<path d="M 1040 644 L 900 644" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<path d="M 910 639 L 900 644 L 910 649" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<text x="1004" y="637" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">0..1</text>
+<text x="910" y="637" font-family="Helvetica, Arial, sans-serif" font-size="10px" fill="#000">0..*</text>
+<rect x="60" y="140" width="140" height="182" fill="#fff" stroke="#000" pointer-events="all"/>
+<path d="M 60 166 L 200 166" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<text x="130.0" y="157" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">Aluno</text>
+<text x="64" y="183" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">_id</text>
+<text x="64" y="209" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">nome</text>
+<text x="64" y="235" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">cpf</text>
+<text x="64" y="261" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">dataNascimento</text>
+<text x="64" y="287" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">telefone</text>
+<text x="64" y="313" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">email</text>
+<rect x="260" y="140" width="140" height="156" fill="#fff" stroke="#000" pointer-events="all"/>
+<path d="M 260 166 L 400 166" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<text x="330.0" y="157" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">Endereco</text>
+<text x="264" y="183" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">logradouro</text>
+<text x="264" y="209" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">numero</text>
+<text x="264" y="235" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">municipio</text>
+<text x="264" y="261" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">uf</text>
+<text x="264" y="287" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">cep</text>
+<rect x="460" y="140" width="140" height="130" fill="#fff" stroke="#000" pointer-events="all"/>
+<path d="M 460 166 L 600 166" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<text x="530.0" y="157" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">Responsavel</text>
+<text x="464" y="183" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">nome</text>
+<text x="464" y="209" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">cpf</text>
+<text x="464" y="235" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">telefone</text>
+<text x="464" y="261" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">parentesco</text>
+<rect x="760" y="140" width="140" height="260" fill="#fff" stroke="#000" pointer-events="all"/>
+<path d="M 760 166 L 900 166" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<text x="830.0" y="157" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">Curso</text>
+<text x="764" y="183" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">_id</text>
+<text x="764" y="209" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">nome</text>
+<text x="764" y="235" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">idioma</text>
+<text x="764" y="261" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">publicoAlvo</text>
+<text x="764" y="287" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">idadeMinima</text>
+<text x="764" y="313" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">idadeMaxima</text>
+<text x="764" y="339" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">nivel</text>
+<text x="764" y="365" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">cargaHoraria</text>
+<text x="764" y="391" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">valorMensal</text>
+<rect x="980" y="140" width="140" height="104" fill="#fff" stroke="#000" pointer-events="all"/>
+<path d="M 980 166 L 1120 166" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<text x="1050.0" y="157" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">Modulo</text>
+<text x="984" y="183" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">titulo</text>
+<text x="984" y="209" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">conteudo</text>
+<text x="984" y="235" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">cargaHoraria</text>
+<rect x="260" y="540" width="140" height="156" fill="#fff" stroke="#000" pointer-events="all"/>
+<path d="M 260 566 L 400 566" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<text x="330.0" y="557" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">Matricula</text>
+<text x="264" y="583" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">_id</text>
+<text x="264" y="609" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">alunoId</text>
+<text x="264" y="635" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">turmaId</text>
+<text x="264" y="661" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">data</text>
+<text x="264" y="687" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">situacao</text>
+<rect x="260" y="776" width="140" height="78" fill="#fff" stroke="#000" pointer-events="all"/>
+<path d="M 260 802 L 400 802" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<text x="330.0" y="793" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">Nota</text>
+<text x="264" y="819" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">avaliacao</text>
+<text x="264" y="845" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">valor</text>
+<rect x="760" y="540" width="140" height="208" fill="#fff" stroke="#000" pointer-events="all"/>
+<path d="M 760 566 L 900 566" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<text x="830.0" y="557" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">Turma</text>
+<text x="764" y="583" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">_id</text>
+<text x="764" y="609" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">cursoId</text>
+<text x="764" y="635" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">instrutorId</text>
+<text x="764" y="661" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">inicio</text>
+<text x="764" y="687" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">fim</text>
+<text x="764" y="713" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">vagas</text>
+<text x="764" y="739" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">modalidade</text>
+<rect x="760" y="828" width="140" height="104" fill="#fff" stroke="#000" pointer-events="all"/>
+<path d="M 760 854 L 900 854" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<text x="830.0" y="845" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">Horario</text>
+<text x="764" y="871" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">diaSemana</text>
+<text x="764" y="897" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">inicio</text>
+<text x="764" y="923" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">fim</text>
+<rect x="1040" y="540" width="140" height="208" fill="#fff" stroke="#000" pointer-events="all"/>
+<path d="M 1040 566 L 1180 566" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<text x="1110.0" y="557" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">Instrutor</text>
+<text x="1044" y="583" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">_id</text>
+<text x="1044" y="609" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">nome</text>
+<text x="1044" y="635" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">cpf</text>
+<text x="1044" y="661" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">telefone</text>
+<text x="1044" y="687" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">email</text>
+<text x="1044" y="713" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">idiomas[]</text>
+<text x="1044" y="739" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">publicosAtendidos[]</text>
+<rect x="1240" y="540" width="140" height="156" fill="#fff" stroke="#000" pointer-events="all"/>
+<path d="M 1240 566 L 1380 566" fill="none" stroke="#000" stroke-miterlimit="10"/>
+<text x="1310.0" y="557" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">Endereco</text>
+<text x="1244" y="583" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">logradouro</text>
+<text x="1244" y="609" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">numero</text>
+<text x="1244" y="635" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">municipio</text>
+<text x="1244" y="661" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">uf</text>
+<text x="1244" y="687" font-family="Helvetica, Arial, sans-serif" font-size="12px" fill="#000">cep</text>
+<rect x="1010" y="820" width="105" height="20" fill="none" stroke="#000"/>
+<rect x="1115" y="820" width="295" height="20" fill="none" stroke="#000"/>
+<text x="1062.5" y="834" font-family="Helvetica, Arial, sans-serif" font-size="12px" font-weight="bold" text-anchor="middle" fill="#000">Projeto</text>
+<text x="1262.5" y="834" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">Idioma para Todos</text>
+<rect x="1010" y="840" width="105" height="20" fill="none" stroke="#000"/>
+<rect x="1115" y="840" width="295" height="20" fill="none" stroke="#000"/>
+<text x="1062.5" y="854" font-family="Helvetica, Arial, sans-serif" font-size="12px" font-weight="bold" text-anchor="middle" fill="#000">Artefato</text>
+<text x="1262.5" y="854" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">Diagrama NoAM</text>
+<rect x="1010" y="860" width="105" height="20" fill="none" stroke="#000"/>
+<rect x="1115" y="860" width="295" height="20" fill="none" stroke="#000"/>
+<text x="1062.5" y="874" font-family="Helvetica, Arial, sans-serif" font-size="12px" font-weight="bold" text-anchor="middle" fill="#000">Contexto</text>
+<text x="1262.5" y="874" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">Projeto Interdisciplinar III</text>
+<rect x="1010" y="880" width="105" height="20" fill="none" stroke="#000"/>
+<rect x="1115" y="880" width="295" height="20" fill="none" stroke="#000"/>
+<text x="1062.5" y="894" font-family="Helvetica, Arial, sans-serif" font-size="12px" font-weight="bold" text-anchor="middle" fill="#000">Turma</text>
+<text x="1262.5" y="894" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">3 sem. DSM 2026/2</text>
+<rect x="1010" y="900" width="105" height="20" fill="none" stroke="#000"/>
+<rect x="1115" y="900" width="295" height="20" fill="none" stroke="#000"/>
+<text x="1062.5" y="914" font-family="Helvetica, Arial, sans-serif" font-size="12px" font-weight="bold" text-anchor="middle" fill="#000">Autores</text>
+<text x="1262.5" y="914" font-family="Helvetica, Arial, sans-serif" font-size="12px" text-anchor="middle" fill="#000">Carlos Adriano T. S. Costa</text>
+</g>
+</svg>
