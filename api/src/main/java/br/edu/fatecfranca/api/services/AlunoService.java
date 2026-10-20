@@ -5,23 +5,31 @@ package br.edu.fatecfranca.api.services;
 import java.util.List;
 import java.util.Optional;
 
-
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import org.springframework.web.server.ResponseStatusException;
+
 
 
 import br.edu.fatecfranca.api.models.Aluno;
 import br.edu.fatecfranca.api.repositories.AlunoRepository;
+import br.edu.fatecfranca.api.repositories.MatriculaRepository;
 
 
+/**
+ * AlunoService
+ */
 @Service
 public class AlunoService {
 
 
    private final AlunoRepository repository;
+   private final MatriculaRepository matriculaRepository;
 
 
-   public AlunoService(AlunoRepository repository) {
+   public AlunoService(AlunoRepository repository, MatriculaRepository matriculaRepository) {
        this.repository = repository;
+       this.matriculaRepository = matriculaRepository;
    }
 
 
@@ -41,6 +49,14 @@ public class AlunoService {
 
 
    public void excluir(String id) {
-       repository.deleteById(id);
+    if (!repository.existsById(id)) {
+       throw new ResponseStatusException(HttpStatus.NOT_FOUND,
+            "Aluno não encontrado");
+    }
+    if (matriculaRepository.existsByAlunoId(id)) {
+       throw new ResponseStatusException(HttpStatus.BAD_REQUEST,
+            "Não é possível excluir o aluno, pois ele possui matrículas associadas");
+    }
+    repository.deleteById(id);
    }
 }
