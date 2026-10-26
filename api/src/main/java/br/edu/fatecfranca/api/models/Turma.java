@@ -6,6 +6,16 @@ import java.util.List;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import jakarta.validation.constraints.AssertTrue;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Positive;
+
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+
 @Document(collection = "turmas")
 public class Turma {
 
@@ -14,10 +24,24 @@ public class Turma {
 
     private String cursoId;
     private String instrutorId;
+
+    @NotNull(message = "A data de início da turma é obrigatória")
     private LocalDate dataInicio;
+
+    @NotNull(message = "A data de fim da turma é obrigatória")
     private LocalDate dataFim;
+
+    @NotNull (message = "O número de vagas da turma é obrigatório")
+    @Positive(message = "O número de vagas deve ser maior que zero")
     private Integer numVagas;
+
+    @NotBlank(message = "O status da turma é obrigatório")
+    @Pattern(
+        regexp = "PREVISTA|ATIVA|ENCERRADA|CANCELADA",
+        message = "O status deve ser PREVISTA, ATIVA, ENCERRADA ou CANCELADA"
+    )
     private String status;
+
     private List<Horario> horarios;
 
     public Turma() {
@@ -40,6 +64,16 @@ public class Turma {
         this.numVagas = numVagas;
         this.status = status;
         this.horarios = horarios;
+    }
+
+    @JsonIgnore
+    @AssertTrue(message = "A data de início deve ser anterior à data de fim")
+    public boolean isPeriodoValido() {
+        if (dataInicio == null || dataFim == null) {
+            return true; // A validação de @NotNull cuidará disso
+        }
+
+        return !dataFim.isBefore(dataInicio);
     }
 
     public String getId() {

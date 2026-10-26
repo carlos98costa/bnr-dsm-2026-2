@@ -8,10 +8,32 @@ import java.util.List;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import org.hibernate.validator.constraints.br.CPF;
+
 
 @Document(collection = "alunos")
 public class Aluno {
 
+    @Id
+    private String id;
+
+    @NotBlank(message = "O nome do aluno é obrigatório")
+    private String nome;
+
+    @NotBlank(message = "O CPF do aluno é obrigatório")
+    @CPF(message = "O CPF do aluno é inválido")
+    private String cpf;
+
+    @NotBlank (message = "O telefone do aluno é obrigatório")
+    private String telefone;
+
+    @NotBlank(message = "O email do aluno é obrigatório")
+    @Email(message = "O email do aluno é inválido")
+    private String email;
+
+    private List<Endereco> enderecos;
 
    public String getId() {
         return id;
@@ -71,20 +93,6 @@ public class Aluno {
     public void setEnderecos(List<Endereco> enderecos) {
         this.enderecos = enderecos;
     }
-
-
-   @Id
-   private String id;
-
-
-   private String nome;
-   private String cpf;
-   private String telefone;
-   private String email;
-
-
-   private List<Endereco> enderecos;
-
 
    // Construtor genérico
    public Aluno() {
