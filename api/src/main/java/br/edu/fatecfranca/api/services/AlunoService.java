@@ -54,7 +54,7 @@ public class AlunoService {
             "Aluno não encontrado");
     }
     if (matriculaRepository.existsByAlunoId(id)) {
-       throw new ResponseStatusException(HttpStatus.BAD_REQUEST,
+       throw new ResponseStatusException(HttpStatus.CONFLICT,
             "Não é possível excluir o aluno, pois ele possui matrículas associadas");
     }
     repository.deleteById(id);

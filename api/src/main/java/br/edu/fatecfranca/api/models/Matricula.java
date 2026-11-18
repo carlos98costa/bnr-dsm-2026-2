@@ -5,15 +5,23 @@ import java.util.List;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import jakarta.validation.constraints.NotBlank;
+
 @Document(collection = "matriculas")
 public class Matricula {
 
     @Id
     private String id;
 
+    @NotBlank(message = "O identificador do aluno é obrigatório")
     private String alunoId;
+
+    @NotBlank(message = "O identificador da turma é obrigatório")
     private String turmaId;
+
+    @NotBlank(message = "O status da matrícula é obrigatório")
     private String status;
+
     private List<Nota> notas;
 
     public Matricula() {

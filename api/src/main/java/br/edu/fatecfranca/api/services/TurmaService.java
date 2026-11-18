@@ -4,7 +4,9 @@ package br.edu.fatecfranca.api.services;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import org.springframework.web.server.ResponseStatusException;
 
 import br.edu.fatecfranca.api.dtos.TurmaResponse;
 import br.edu.fatecfranca.api.models.Curso;
@@ -12,6 +14,7 @@ import br.edu.fatecfranca.api.models.Instrutor;
 import br.edu.fatecfranca.api.models.Turma;
 import br.edu.fatecfranca.api.repositories.CursoRepository;
 import br.edu.fatecfranca.api.repositories.InstrutorRepository;
+import br.edu.fatecfranca.api.repositories.MatriculaRepository;
 import br.edu.fatecfranca.api.repositories.TurmaRepository;
 
 @Service
@@ -20,15 +23,18 @@ public class TurmaService {
     private final TurmaRepository repository;
     private final CursoRepository cursoRepository;
     private final InstrutorRepository instrutorRepository;
+    private final MatriculaRepository matriculaRepository;
 
     public TurmaService(
         TurmaRepository repository,
         CursoRepository cursoRepository,
-        InstrutorRepository instrutorRepository
+        InstrutorRepository instrutorRepository,
+        MatriculaRepository matriculaRepository
     ) {
         this.repository = repository;
         this.cursoRepository = cursoRepository;
         this.instrutorRepository = instrutorRepository;
+        this.matriculaRepository = matriculaRepository;
     }
 
     private TurmaResponse montarResposta(Turma turma) {
@@ -84,6 +90,14 @@ public class TurmaService {
     }
 
     public void excluir(String id) {
+        if (!repository.existsById(id)) {
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND,
+                    "Turma não encontrada");
+        }
+        if (matriculaRepository.existsByTurmaId(id)) {
+            throw new ResponseStatusException(HttpStatus.CONFLICT,
+                    "Não é possível excluir a turma, pois ela possui matrículas associadas");
+        }
         repository.deleteById(id);
     }
 }
